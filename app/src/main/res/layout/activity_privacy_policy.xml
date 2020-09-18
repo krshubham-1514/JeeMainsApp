@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicyActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@color/white"
+        android:background="@color/toolbar"
+
+        app:theme="@style/toolbar_theme"/>
+    <LinearLayout
+        android:id="@+id/privacy_home"
+        android:layout_below="@id/toolbar_main"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:text="Privacy policy"
+            android:layout_marginBottom="45sp"
+            android:textAlignment="center"/>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="This document is our Privacy Policy, which describes what information we collect from you and how we use it. This is important; we hope you will take time to read it carefully.
+
+"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="We use Google Admob SDK for advertisements in our applications."
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Provided Information and Use of that Information"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@android:color/black"
+        />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This Application does not require any persional information."
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONFIDENTIALITY"
+            android:textSize="35sp"
+            android:layout_marginTop="25sp"
+            android:textColor="@android:color/black"
+            />
+
+
+
+        <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We do not collect sensitive personal data or information of users like password of your e mail account, financial information such as Bank Account details or Credit Card or Debit Card or other payment related details."
+        android:textSize="15sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@android:color/black"
+        />
+
+        <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOTIFICATION OF MODIFICATIONS AND CHANGES TO THE T C AND PRIVACY POLICY"
+        android:textSize="25sp"
+        android:layout_marginTop="25sp"
+        android:textColor="@android:color/black"
+        />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We reserve the right to change the Terms and Privacy Policy from time to time as it sees fit and your continued use of the app will signify your acceptance of any adjustment to these terms. You are therefore advised to re-read the Terms and Privacy Policy on a regular basis. Should it be that you do not accept any of the modifications or amendments to the Terms and Privacy Policy, you may terminate your use of this application immediately."
+            android:textSize="15sp"
+            android:layout_marginTop="25sp"
+            android:textColor="@android:color/black"
+            />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

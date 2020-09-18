@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C5053C</color>
+    <color name="colorPrimaryDark">#63001E</color>
+    <color name="colorAccent">#009688</color>
+    <color name="toolbar">#B40343</color>
+    <color name="white">#fff</color>
+    <color name="background_listview">#F0F0F0</color>
+    <color name="download_button">#FF4678</color>
+    <color name="color_icon1">#00BCD4</color>
+    <color name="color_icon2">#EEB50A</color>
+    <color name="color_icon3">#647AFC</color>
+    <color name="color_icon4">#6CBB10</color>
+</resources>

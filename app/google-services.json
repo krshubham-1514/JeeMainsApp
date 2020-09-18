@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "543615197397",
+    "firebase_url": "https://jeemainsapp-48a64.firebaseio.com",
+    "project_id": "jeemainsapp-48a64",
+    "storage_bucket": "jeemainsapp-48a64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543615197397:android:61f650780d2d36dc",
+        "android_client_info": {
+          "package_name": "com.project.jeemainsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543615197397-2ub8gef9c1qpv73e1atvjqsvtikho9iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.jeemainsapp",
+            "certificate_hash": "13c9fc106ccda485dbc2c34fb52d7a18e6f841c1"
+          }
+        },
+        {
+          "client_id": "543615197397-dq56p70cgm7tgfujv43880k0evtniquu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYF3uDZtfAVJ9EcXov9LZAmaPja2aZWv4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543615197397-dq56p70cgm7tgfujv43880k0evtniquu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
